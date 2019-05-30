@@ -1,0 +1,35 @@
+button {
+    margin: 1rem;
+    font-size: 1.15rem;
+    background: white;
+    color: black;
+    -webkit-transition: 0.3s; /* For Safari 3.1 to 6.0 */
+  transition:  0.3s;
+}
+
+button:hover {
+    background: black;
+    color: white;
+}
+
+.opacity-flex-container, .button-flex-container, .img-flex-container {
+    display: flex;
+    justify-content: center;
+} 
+
+
+#img-van.grayscale {
+    filter: grayscale(100%);
+}
+
+#img-van.blur {
+    filter: blur(5px);
+}
+
+#img-van.hue {
+    filter:hue-rotate(80deg);
+}
+
+#img-van.sepia {
+    filter:sepia(100%);
+}
