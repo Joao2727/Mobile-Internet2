@@ -1,0 +1,33 @@
+# Mobile-Internet2
+<!DOCTYPE <!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="utf-8" />
+    <title>Les 01 - Filter</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="img-flex-container">
+    <img src="van.jpg" alt="Foto van Van" id="img-van">
+</div>
+    <div class="button-flex-container">
+    <button id="normal" type="button" >NORMAL</button>
+    <button id="grayscale" type="button" >GRAYSCALE</button>
+    <button id="sepia" type="button" >SEPIA</button>
+    <button id="hue" type="button" >HUE</button>
+    <button id="blur" type="button" >BLUR</button>
+</div>
+<div class="opacity-flex-container">
+<p>OPACITY :</p>
+    <input type="range" min="0" max="100" value="100" step="1" id="range">
+<p><span id="value"></span></p>
+</div>
+
+<script src="js/js-range.js"></script>
+<script src="js/js-normal.js"></script>
+<script src="js/js.blur.js"></script>
+<script src="js/js-hue.js"></script>
+<script src="js/js-sepia.js"></script>
+<script src="js/js-grayscale.js"></script>
+</body>
+</html>
